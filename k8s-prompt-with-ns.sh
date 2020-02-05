@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-echo 'KUBE_INFO=$(kubectl config get-contexts | grep $(kubectl config current-context) | awk "{print \"\033[92m[\"\$4\"\033[36m→\033[92m\"\$3\"(\"$5\")]\033[0m\"}")' >> ~/.bashrc
+echo 'KUBE_INFO=$(kubectl config get-contexts | grep $(kubectl config current-context) | awk "{print \"\033[92m[\"\$4\"\033[36m→\033[92m\"\$3\"(\"\$5\")]\033[0m\"}")' >> ~/.bashrc
 echo 'PS1="$KUBE_INFO $PS1"' >> ~/.bashrc
