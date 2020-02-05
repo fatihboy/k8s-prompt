@@ -21,6 +21,7 @@ Prompt with username and Kubernetes cluster name can be installed using followin
 ### Prompt with username, Kubernetes cluster name and namespace
 
 ![prompt with username, Kubernetes cluster name and namespace](img/k8s-prompt-with-ns.png)
+
 Prompt with username, Kubernetes cluster name and namespace can be installed using following commands;
 
      curl -s https://raw.githubusercontent.com/fatihboy/k8s-prompt/master/k8s-prompt-with-ns.sh | bash
